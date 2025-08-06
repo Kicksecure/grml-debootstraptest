@@ -53,7 +53,7 @@ create_img() {
          --mirror http://HTTPS///deb.debian.org/debian \
          --keep_src_list \
          --password changeme \
-         --release bookworm \
+         --release trixie \
          --verbose \
          --vmfile \
          --vmsize "$VMSIZE" \
